@@ -26,7 +26,7 @@ class AndroidGCMNotification implements OSNotificationServiceInterface
      *
      * @var string
      */
-    protected $apiURL = "https://android.googleapis.com/gcm/send";
+    protected $apiURL = 'https://fcm.googleapis.com/fcm/send';
 
     /**
      * Google GCM API key
